@@ -29,6 +29,7 @@ namespace Formulario_MDI_y_secundarios
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.formuariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.formulariosDeVentaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -113,7 +114,8 @@ namespace Formulario_MDI_y_secundarios
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(636, 461);
             this.Controls.Add(this.menuStrip1);
             this.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
