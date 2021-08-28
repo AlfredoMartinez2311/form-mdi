@@ -109,5 +109,11 @@ namespace Formulario_MDI_y_secundarios
         {
 
         }
+
+        //El boton aceptar nos permitira cerrar la venta de "Acerca de"
+        private void okButton_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
